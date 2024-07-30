@@ -1,2 +1,2 @@
 # Oracle_initial_user_setup
-A script to setup users in an Oracle 11.2 database
+This script was written to help automate the setup of users in an Oracle 11.2 database in AWS.  The script creates users with a 12 character random passowrd, basic login privileges, sets the tablespace quota and grants additional privileges if the user is a service user.  The user and an encoded version of the password are inserted into a table for future reference.  The script was used in a production environment.
